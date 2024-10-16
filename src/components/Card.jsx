@@ -1,18 +1,15 @@
 import React from "react";
-import "../../public/styles.css"
-
 
 function Card(props) {
   return (
-    
     <div className="term">
       <dt>
-        <span className="emoji" role="img" aria-label="Tense Biceps">{props.emoji}
+        <span className="emoji" role="img" aria-label="Tense Biceps">
+          {props.emoji}
         </span>
         <span>{props.name}</span>
       </dt>
-      <dd>{props.meaning}
-      </dd>
+      <dd>{props.meaning}</dd>
     </div>
   );
 }
