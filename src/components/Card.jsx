@@ -1,5 +1,5 @@
 import React from "react";
-
+//Here is the Card component
 function Card(props) {
   return (
     <div className="term">
