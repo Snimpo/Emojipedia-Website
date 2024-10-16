@@ -1,4 +1,19 @@
 import React from "react";
+import Card from "./Card";
+import emojipedia from "../emojipedia";
+
+function createCard(emojiinfo){
+  return(
+    <Card 
+    
+    key={emojiinfo.id}
+    name={emojiinfo.emoji}
+    meaning={emojiinfo.meaning}
+    />
+  );
+  
+
+};
 
 function App() {
   return (
@@ -6,8 +21,15 @@ function App() {
       <h1>
         <span>emojipedia</span>
       </h1>
+      <dl className="dictionary"></dl>
+      {emojipedia.map(createCard)}
 
+
+
+
+      {/*
       <dl className="dictionary">
+    
         <div className="term">
           <dt>
             <span className="emoji" role="img" aria-label="Tense Biceps">
@@ -47,6 +69,8 @@ function App() {
           </dd>
         </div>
       </dl>
+
+      */}
     </div>
   );
 }
