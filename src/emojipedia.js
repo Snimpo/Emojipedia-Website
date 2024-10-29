@@ -22,10 +22,17 @@ const emojipedia = [
   },
   {
     id: 4,
-    emoji: "🤣",
-    name: "Rolling On The Floor, Laughing",
+    emoji: "🤑",
+    name: "Money-Mouth Face",
     meaning:
-      "This is funny! A smiley face, rolling on the floor, laughing. The face is laughing boundlessly. The emoji version of “rofl“. Stands for „rolling on the floor, laughing“."
+      "A yellow face with raised eyebrows, currency symbols for eyes (usually dollar signs), and an open smile sticking out a tongue (usually colored green with a dollar sign, echoing a dollar banknote)."
+  },
+  {
+    id: 5,
+    emoji: "😇",
+    name: "Smiling Face with Halo",
+    meaning:
+      "A yellow face with smiling eyes, closed smile, and halo, usually blue, overhead. Often represents angels, prayers, and blessings. May also convey angelic behavior, e.g., doing good deeds."
   }
 ];
 
