@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./components/Card";
+import Card from "./Card";
 import emojipedia from "./emojipedia";
 //The fucntion createCard will be the onebeing executed for every element inside the emojipedia.js file
 function createCard(emojiinfo) {
